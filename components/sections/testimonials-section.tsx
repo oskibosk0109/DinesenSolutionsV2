@@ -109,7 +109,7 @@ export default function TestimonialsSection() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-muted-foreground mb-4 italic">
-                        "{testimonial.content}"
+                        &ldquo;{testimonial.content}&rdquo;
                       </p>
                       <div>
                         <p className="font-semibold text-foreground">

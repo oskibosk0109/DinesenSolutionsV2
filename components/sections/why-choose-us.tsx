@@ -100,7 +100,7 @@ export default function WhyChooseUs() {
         >
           <div className="inline-block p-8 bg-white rounded-2xl shadow-xl">
             <p className="text-2xl font-semibold text-foreground mb-2">
-              "Jeg bygger det, som de store bureauer ville sætte 5 mennesker på"
+              &ldquo;Jeg bygger det, som de store bureauer ville sætte 5 mennesker på&rdquo;
             </p>
             <p className="text-muted-foreground">
               - Men hurtigere, billigere og ofte bedre

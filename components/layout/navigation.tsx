@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -37,14 +38,15 @@ export default function Navigation() {
     >
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <Link
-            href="/"
-            className={cn(
-              "text-xl font-bold transition-colors",
-              isScrolled ? "text-foreground" : "text-white"
-            )}
-          >
-            Dinesen Solutions
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/Logo_Sort_Transparent.png"
+              alt="Dinesen Solutions"
+              width={180}
+              height={60}
+              className="h-10 w-auto"
+              priority
+            />
           </Link>
 
           <div className="hidden md:flex items-center gap-8">

@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, MotionValue } from "framer-motion";
 import { useRef } from "react";
 
 export default function TextReveal({
@@ -52,7 +52,7 @@ const Word = ({
   range,
 }: {
   children: string;
-  progress: any;
+  progress: MotionValue<number>;
   range: [number, number];
 }) => {
   const opacity = useTransform(progress, range, [0, 1]);

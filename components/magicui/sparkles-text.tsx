@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { CSSProperties, ReactElement, useEffect, useState } from "react";
+import { ReactElement, useEffect, useState } from "react";
 
 const Sparkle = ({
   size = 20,
